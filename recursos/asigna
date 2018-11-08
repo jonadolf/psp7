@@ -1,0 +1,32 @@
+$data['idEstudiante'] = request()->get('idEstudiante');
+        $data['numProyecto'] = request()->get('numProyecto');
+        $data['estado'] = request()->get('estado');
+        return json_encode($data);
+
+        $query = DB::select('select * from asignas where idEstudiante = :idEstudiante AND 
+                                numProyecto = :numProyecto', 
+                                ['idEstudiante' => $data['idEstudiante'],'numProyecto'=>$data['numProyecto']])->get();  
+
+        if(!$query){
+                $validator = Validator::make($data, [
+                'idEstudiante' => 'required',
+                'numProyecto' => 'required',
+                'estado' => 'required',
+                ]);
+              if ($validator->passes()) {                                          
+                      Asigna::create([                      
+                      'idEstudiante'=>$request['idEstudiante'],
+                      'numeroProyecto'=>$request['numProyecto'],
+                      'estado'=>$request['estado'],
+                       ]);
+              }else{
+                return response()->json(['error'=>$validator->errors()->all()]);    
+              } 
+          }else{
+              Session::flash('message','EL usuario ya tiene tarea asignada.');
+           }         
+            
+        if ($request){
+           Session::flash('message','Usuario asignado con éxito.');
+           $tareas = Asigna::all();               
+        }    

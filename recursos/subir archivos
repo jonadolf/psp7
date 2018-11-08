@@ -1,0 +1,10 @@
+dd($documento   = $request->file('descripcion'),
+                       $nombre = $documento->getClientOriginalName(),
+
+                       Storage::disk('public')->put($nombre, 'ArchivosProyectos') )                   /*,
+                       'NumeroProyecto'=>$request['numero'],
+                       'NombreProyecto'  =>$request['nombre'],
+                       'ElementosDeEvaluacion'=>$request['evaluacion'],
+                       'NombreArchivo'=> $nombre,
+                       'RutaArchivo'=> $destinationPath,*/
+                          ]);
