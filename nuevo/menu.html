@@ -1,0 +1,108 @@
+<html>
+<head>
+<script language="javascript" src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script type="text/javascript">
+function mainmenu(){
+// Oculto los submenus
+$(" #nav ul ").css({display: "none"});
+// Defino que submenus deben estar visibles cuando se pasa el mouse por encima
+$(" #nav li").hover(function(){
+    $(this).find('ul:first:hidden').css({visibility: "visible",display: "none"}).slideDown(400);
+    },function(){
+        $(this).find('ul:first').slideUp(400);
+    });
+}
+$(document).ready(function(){
+    mainmenu();
+});
+</script>
+<style>
+
+#menu { 
+	background-color: #000; 
+	height:30px; 
+	width:500px; 
+	margin:auto; 
+	padding-left:70px;	
+}
+#nav { 
+	list-style:none; 
+}
+#nav li { 
+	float:left; 
+}
+#nav li a { 
+	display:block; 
+	padding:7px 10px; 
+	text-decoration:none; 
+	color:#CCCCCC; 
+	font-weight:bold; 
+}
+#nav li a:hover { 
+	color:#FFFFFF; 
+}
+
+/* Submenu */
+
+
+#nav ul.submenu { 
+	border:1px solid #000000; 
+	padding:5px; 
+	position:absolute; 
+	list-style:none; 
+	background-color:#333333;
+}
+#nav ul.submenu li { 
+	float:none; 
+	background-image:none; 
+	border-bottom:1px solid #999999; 
+	width:200px;
+}
+
+/* Subsubmenu */
+#nav ul.subsubmenu { 
+	border:1px solid #000000; 
+	padding:5px; 
+	position:absolute; 
+	list-style:none; 
+	background-color:#333333; 
+	margin-left:150px; 
+	margin-top:-30px;
+}
+#nav ul.subsubmenu li { 
+	float:none; 
+	border-bottom:1px solid #999999; 
+	min-width:200px;
+}
+</style>
+</head>
+<body>
+
+<div id="menu">
+<ul id="nav">
+    <li><a href="#">Inicio</a></li>
+    <li><a href="#">Tutotiales</a>
+        <ul class="submenu">
+            <li><a href="#">Diseño</a>
+                <ul class="subsubmenu">
+                    <li><a href="#">Photoshop</a></li>
+                    <li><a href="#">Dreamweaver</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Windows</a></li>
+            <li><a href="#">Mac</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Nosotros</a>
+        <ul class="submenu">
+            <li><a href="#">Vision</a></li>
+            <li><a href="#">Mision</a></li>
+        </ul>
+    </li>
+    <li><a href="#">Otros</a></li>
+    <li><a href="#">Contactanos</a></li>
+</ul>
+</div>
+
+</body>
+</html>

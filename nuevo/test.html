@@ -1,0 +1,34 @@
+<html>
+	<head>
+	<title>Example jQuery 1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="idDiv1" style="border: 1px solid red;">Esto desaparece y luego aparece </div><br/>
+		<div id="idDiv2" style="border: 2px solid blue;">Esto hace lo mismo pero mas lento que el anterior</div><br/>
+		<div id="idDiv3" style="border: 3px solid green;">Esto se lo piensa a&aacute;n m&aacute;s...</div><br/>
+
+		<div id="idDiv4" style="border: 1px solid red;">
+			<img src="http://2.bp.blogspot.com/_Mu7LlzSeRKI/TGteVqdL48I/AAAAAAAAAA4/lB33KRJHIzA/s1600/dibujos_graciosos_coma_mas_pollo.jpg"/>
+		</div><br/>
+		<div id="idDiv5" style="border: 2px solid blue;">
+			<img src="http://memeschistosos.net/wp-content/uploads/2016/07/memes-de-ingenieros-informatica-carrera.jpg"/>
+		</div><br/>
+		<div id="idDiv6" style="border: 3px solid green;">
+			<img src="https://s-media-cache-ak0.pinimg.com/564x/81/7d/31/817d317eecb8af559b39be77577c2b2e.jpg"/>
+		</div><br/>
+
+		<script type="text/javascript">
+			// Segunda forma de utilizar jQuery
+			$(document).ready(function(){
+				$("#idDiv1").hide(3500).show(1500);
+				$("#idDiv2").hide(5500).show(3500);
+				$("#idDiv3").hide(7500).show(5500);
+				$("#idDiv4").hide(9500).show(7500);
+				$("#idDiv5").hide(11500).show(9500);
+				$("#idDiv6").hide(13500).show(11500);
+			});
+		</script>
+
+	</body>
+</html>

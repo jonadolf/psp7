@@ -1,0 +1,433 @@
+/* CSS Document */
+/*
+anaranjado 
+#F2A31B
+*/
+/* Codigo para el color de los campos de texto*/
+
+/** para link de paginas **/
+a.liga:link{
+    text-decoration:none;
+	font-family:"Trebuchet MS";
+    color:#000080;
+    font-size:12px;
+}
+a.liga:hover{
+    text-decoration:underline;
+	font-family:"Trebuchet MS";
+    color:#000080;
+    font-size:12px;
+}
+a.liga:visited{
+    text-decoration:none;
+	font-family:"Trebuchet MS";
+    color:#000080;
+    font-size:12px;
+}
+a.liga:active{
+    text-decoration:underline;
+	font-family:"Trebuchet MS";
+    color:#000080;
+    font-size:12px;
+}
+
+
+.txt1{        
+   font-family:"Trebuchet MS";
+   color:#000066;  
+   font-size:12px;
+   }
+    
+.txt2{        
+   font-family:"Palatino Linotype";
+   color:#000000;   
+   font-size:14px;
+   }
+
+.logintxt{        
+   font-family:"Palatino Linotype";
+   color:#003366;   
+   font-size:14px;
+   }
+      
+.txtr{        
+   font-family:"Palatino Linotype";
+   color:#000066;   
+   font-size:14px;
+   } 
+  
+.txt3{        
+   font-family:"Bookman Old Style";
+   color:#000000;   
+   font-size:14px;
+   }
+
+.aviso{        
+   font-family:"Bookman Old Style";
+   font-weight: 500;
+   color:#660000; 
+   font-size:16px;
+   }
+
+
+.cajatxt{        
+   font-family:"Palatino Linotype";
+   color:#000000;
+   font-size:12px;
+   }
+   
+.cajatxtlogin{        
+   font-family:"Palatino Linotype";
+   color:#003366;
+   font-size:12px;
+   }   
+   
+.boton{
+	font-family:"Sylfaen";
+	color:#FFFFFF;
+	font-size:14px;
+	background-color: #003366;
+   }
+  
+ .boton3{        
+   font-family:"Sylfaen";
+   color:#000000;
+   font-size:14px;
+   }  
+
+.txtmeno{        
+   font-family:"Palatino Linotype";
+   color:#000000;   
+   font-size:11px;
+   }
+ 
+.txtmas{        
+   font-family:"Palatino Linotype";
+   color:#000000;   
+   font-size:12px;
+   }
+
+.txtres{        
+   font-family:"Palatino Linotype";
+   color:#990000; 
+   font-size:10px;
+   }
+   
+   .tres{        
+   font-family:"Palatino Linotype";
+   color:#CC0000; 
+   font-size:12px;
+   }
+   
+//pruebas
+body {
+	scrollbar-face-color:#C3C6E5;
+	scrollbar-arrow-color=#5A5FA1;
+	scrollbar-track-color=#E4E5F5;
+	scrollbar-shadow-color=#B1B4D2;
+	scrollbar-darkshadow-color=#5A5FA1;
+	scrollbar-3DLight-color=#F2F2F2;
+	},
+.cdLightBody{
+	margin:0;
+	padding:0;
+	background-color:#FFFFFF;
+	font-family:Tahoma,Arial,Helvetica,sans-serif; 
+	font-size:10px; 
+	line-height:normal;}
+.cdLightBody{background-color:#fff;}
+a{text-decoration:none;color:#0560A6;}
+a:hover{text-decoration:underline;}
+a:visited{color:#834283;}
+hr{color:#003366;background-color:#003366;height:1px;border-bottom-width:0px;border-top-width:0px;margin-bottom:7px;}
+input.cdsearchbox{background-color:#F7FBFF;border-top:1px solid #84A5CE;border-left:1px solid #84A5CE;border-right:1px solid #C1D2E7;border-bottom:1px solid #C1D2E7;font-family:Tahoma,Arial,Helvetica,sans-serif; font-size:10px;display:inline;padding:2px 2px 2px 4px;width:200px;}
+
+#IdTitulo{
+	font-family:Tahoma,Arial,Helvetica,sans-serif;
+	position:absolute;
+	left:173px;
+	top:34px;
+	width:788px;
+	height:30px;
+	padding-top: 10px;
+	padding-left: 10px;
+	color: #006699;
+	font-weight: bold;
+}
+
+#cdcontbottom{background-image:url(http://webdev/venusdes/images/bg_bottom.jpg);background-repeat:no-repeat;height:18px;width:900px;}
+
+#cdcontbottom1{background-image:url(http://webdev/venusdes/images/bg_bottom2.jpg);background-repeat:no-repeat;height:18px;width:500px;}
+
+#cdlog{width:900px;zoom:1;}
+#cdheadbg,
+#cdheadbgHome{width:900px;height:52px;background-image:url(../imgs/fondo-ovalado.gif);background-repeat:repeat;}
+#cdheadbgHome{background-image:url(http://webdev/venusdes/images/bg_topheadhome.jpg);}
+#cdheadbgPP{width:800px;background-image:url(http://webdev/venusdes/images/bg_tophead_pp.jpg); height:46px;}
+
+#cdheadbg1,
+#cdheadbgHome1{width:500px;background-image:url(http://webdev/venusdes/images/bg_tophead2.jpg);background-repeat:no-repeat;}
+
+
+
+
+#cdglobaltop,#cdglobaltopPP{
+	float:left;
+	padding:2px 0  0 15px;
+}
+#cdglobaltopPP{padding:2px 0 0 0;}
+#cdsitemaptop,#cdsitemaptopPP{float:right; padding:5px 19px 0 19px;text-align:right;}
+#cdsitemaptopPP{padding:5px 2px 0 2px;}
+#cdleftnav{width:155px;padding:0px 0 8px 0;background-color:#F2F2F2;}
+#cdlnavspacer{width:9px;}
+#cdlogotop,#cdlogotopPP{
+	float:left;
+	padding-top: 10px;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0px;
+}
+#cdlogotopPP{padding:4px 0  0 21px;}
+#navcontainer{background-image:url(../imgs/img-menu.gif);/*background-color:003366;*/width:900px;}
+#cdsignin{
+	float:right;
+	text-align:right;
+	padding-top: 15px;
+	padding-right: 33px;
+	padding-bottom: 0;
+	padding-left: 0;
+}
+#cdsubbrandbarnew{zoom:100%;text-align:left; border-top: 1px solid #5A5FA1;border-bottom: 1px solid #5A5FA1;}
+#cdsubbrandtextnew{padding:0px 20px 5px 20px;font-family:Arial, Helvetica, sans-serif; font-size:1em; line-height:1.2em;color: #003366;margin-top:-5px;}
+#cdsubwebicon{background-image:url(http://webdev/venusdes/images/icon_search.gif);background-repeat:no-repeat;background-position:5px 8px;}
+#cdsubwebicon div{width:45px;}
+#cdfooter{width:800px;background-image:url(../imgs/img-menu.gif);/*background-color:003366;*/}
+#cdline{
+	width:900px;
+	height:6px;
+	background-color:#CC9933;
+	font-size:1px;
+	background-image: url(../imgs/fondoline.gif);
+}
+
+
+#cdfooter1{width:480px;background-color:#C9DEFD;}
+#cdline1{width:480px;height:6px;background-color:#F2A31B;font-size:1px;}
+
+
+#cdribbon{}
+#cdbreadbar{border-top: 1px solid #C3C6E5;border-bottom: 1px solid #AFB2CC;}
+
+
+.cnt0margin {margin:0px}
+.cdBodyDiv{
+	width:900px;
+	border:1px none #003366;
+	background-image: url(../imgs/fondo.gif);
+}
+
+/*.containermaster{width:800px;background-color:#678FC2;background-repeat:repeat-y;}*/
+.containermaster{
+		width:100px;
+		background-image:url(../imgs/img-menu.gif);
+		/*background-color:#003366;*/
+		background-repeat:repeat-y;
+}
+
+
+.container{width:900px;margin:0px;text-align:left;}
+
+.containermaster1{width:480px;background-color:#678FC2;background-image:url(http://webdev/venusdes/images/t_container2.gif);background-repeat:repeat-y;}
+.container1{width:480px;margin:0px 10px;text-align:left;}
+
+
+.cdribtopl{background-image:url(http://webdev/venusdes/images/rib_l_t.gif); font-size:2px;line-height:2px;}
+.cdribtopc{border-top:1px solid #8aafe1;background-color:#e1eaf6;}
+.cdribtopr{background-image:url(http://webdev/venusdes/images/rib_r_t.gif);}
+.cdribmidl{border-right:none; border-left:1px solid #8aafe1; background-color:#c8f1f9;}
+.cdribmidc{background-image:url(http://webdev/venusdes/images/rib_c_c.gif);border-bottom:1px solid #E0EDFD;}
+.cdribmidr{border-left:none; border-right:1px solid #8aafe1; background-color:#c8f1f9;}
+.cdchutopl{background-image:url(http://webdev/venusdes/images/chu_l_t.gif); font-size:2px;line-height:2px;}
+.cdchubotr{background-image:url(http://webdev/venusdes/images/chu_r_b.gif); background-position:bottom right;}
+.cdchutopc{border-top:1px solid #a4c0dc;background-color:#fff;}
+.cdchutopc div,.cdchubotc div,.cdribtopc div{height:1px;line-height:1px;font-size:1px;overflow:hidden;}
+.cdchutopr{}
+.cdchumidl{border-right:none; border-left:1px solid #9dbcda; background-color:#fff;}
+.cdchumidl div,.cdchumidr div,.cdribmidl div,.cdribmidr div{width:1px;overflow:hidden;}
+.cdchumidc,
+.cdchumidcover{background-image:url(http://webdev/venusdes/images/chu_c_c.gif);background-position:bottom;background-repeat:repeat-x;background-color:#E3EFFF;}
+.cdchumidcover{background-image:url(http://webdev/venusdes/images/chu_c_c_on.gif);background-color:#EFF7FF;}
+.cdchumidr{border-left:none; border-right:1px solid #9fbedb; background-color:#fff;}
+.cdnavpad{padding:3px 15px 3px 15px;}
+.cdnavbold{margin-top:3px;color:#666666;background-color:#E3E3E3;font-weight:bold;}
+.leftlist{list-style:none;margin:0;padding:0 0  0 .7em; text-indent:-.7em;}
+.leftlist li{padding:0px;}
+.cdLNavSpaceRight{border-right:1px solid #5A5FA1;}
+.cdLNavBorderTop{border-top: none;}
+.cdLNavBorderRight{border-right:1px solid #AFB2CC;}
+.cdLeftNavSec{border-top:1px solid #E4E5F5;border-bottom:1px solid #AFB2CC;margin-bottom:14px;padding-bottom:9px;}
+.cdLeftNavSec .cdnavbold {color: #4F548C;background-color: #C3C6E5;}
+.cdLNavCornerLeft,.cdLNavCornerRight{background-repeat:no-repeat;font-size:1px;height:6px;}
+.cdLNavCornerLeft{background-image: url(http://webdev/venusdes/images/LNavCornerLeft.gif);}
+.cdLeftNavBgColor{background-color:#E4E5F5;}
+.cdClpSrchHeadColor{color:#555555;}
+.cdlnav{color:#636363;font-size:.7em;line-height:1.1em;padding-top:0;word-wrap:break-word;text-align:left;}
+.cdfooterside{background-image:url(http://webdev/venusdes/images/footerside.jpg);background-repeat:repeat-x;}
+.cdchubotl{background-image:url(http://webdev/venusdes/images/chu_l_b.gif); font-size:2px;line-height:2px;background-position:bottom left;}
+.cdfootbotside{background-color:#e3eefe;}
+.cdfoottext{font-size:0.7em;color:#FFFFFF;padding:0px 10px;vertical-align:middle;text-align:left;}
+.logintext{font-size:0.7em;color:#003366;padding:0px 10px;vertical-align:middle;text-align:left;}
+.cdsearchboxcont{width:100%;height:32px;text-align:left;}
+.cdSearchBoxOffColor{color:#A1A1A1;}
+.cdsitemap{color:#fff;font-size:.7em;}
+.cdsitemap A{color:#fff;text-decoration:none;}
+.cdsitemap A:hover{color:#fff;text-decoration:underline;}
+.cdsitemap A:visited{color:#fff;}
+.cdribbontext{color:#4372B0;font-size:10px;line-height:1.3em;}
+.cdsearchlabel{vertical-align:bottom;height:2.0em;text-align:left; font-size:10px;font-weight:bold; color:#4372B0;padding-bottom:2px;}
+.cdHeaderBorder{
+	border-bottom:1px solid #fff;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+}
+.cdglobal{color:#fff;font-size:10px;line-height:1.5em;}
+.cdglobal A{color:#D6E7F4;text-decoration:none;}
+.cdglobal A:hover{color:#fff;text-decoration:underline;}
+.cdglobal A:visited{color:#D6E7F4;}
+.cdsignincopy{color:#666;font-size:.7em;line-height:1.3em;}
+.cdsignincopy A{color:#666;text-decoration:none;}
+.cdsignincopy A:hover{color:#666;text-decoration:underline;}
+.cdsignincopy A:visited{color:#666;}
+.SignIn{padding-left:0px;padding-right:0px;font-family:verdana;}
+.cdribbotl{background-image:url(http://webdev/venusdes/images/rib_l_b.gif); font-size:6px;background-repeat:no-repeat;}
+.cdribbotc{background-image:url(http://webdev/venusdes/images/rib_c_b.gif);background-repeat:repeat-x;}
+.cdribbotr{background-image:url(http://webdev/venusdes/images/rib_r_b.gif); background-repeat:no-repeat;}
+a.cdSubwebLink:visited{color: #fff; text-decoration:none;}
+a.cdSubwebLink:hover{text-decoration:underline;}
+.cdbread{color:#666666;font-size:.7em; line-height:1.1em;}
+.cdbread a{color:#636363;text-decoration:none;}
+.cdbread a:hover{color:#636363;text-decoration:underline;}
+.cdbread a:visited{color:#636363;}
+.cdBreadBgColor{background-color: #C3C6E5;}
+.cdFontReduc{font-size:.9em;}
+.cdONBodyCellPadded,.cdONBodyCellUnpadded{height:100%;margin:0px;width:100%;}
+.cdONBodyCellPadded{padding:0px 12px 0px 12px;}
+.cntHHBody {font-family:Tahoma, Arial, Verdana, Helvetica}
+p.cntHHBody {font-size:.8em}
+.cntTagLeader2 {width:473px; font-size:1.0em; padding:0px; padding-top:0px; font-family:Arial, Helvetica, Verdana; color:#666666}
+.Hspace {height:15px; border-style:none; border-width:0px}
+.cntClips {background-color:#3c83d3; color:#ffffff}
+.cntClipbar {border:solid 1px #cccccc; border-bottom:none; padding:3px 10px}
+.cntCliptitle {font-family:Tahoma; font-weight:bold; font-size:.8em;}
+.cntClipoptlink {padding-top:6px; text-align:right; text-align:right; margin-right:10px}
+.cntClipoptlink a {color:#ffffff !important}
+.cntClipgrid {margin:0px; border:solid 1px #cccccc; border-top:none}
+.cdBSC{margin:0px;border:1px #ccc solid;padding:0px 0px 0px 0px;}
+.cdBSC .cdBSCHeading{padding:5px 10px 5px 10px;}
+.cdBSC .cdBSCHeading b{font-size:10px;}
+.cdBSC .cdBSCSearch{padding:5px 10px 5px 10px;}
+.cdBSCSearch *{vertical-align:middle;}
+.cdSubwebColor{color: #fff;}
+.cdSubwebBgColor{
+	background-image: url(../imgs/fondoL.gif);
+	background-repeat: repeat;
+}
+.cdminiform{color:#363636;font-size:10px;display:inline;padding:1px 2px 1px 2px;}
+.cdSideBoxTop{background-color:#F4F4F4;background-image:url(http://webdev/venusdes/images/subTableTop.gif);background-repeat:repeat-x;color:#666666;font-family:Tahoma,Verdana,Arial,Helvetica,sans-serif; font-size:10px;line-height:1.2em;font-weight:bold;}
+.cdSideBox{border:1px solid #cccccc;margin-bottom:10px;}
+.cdSideBoxTitle{padding:4px 15px 1px 15px;}
+.BoxBody{font-family:Arial,sans-serif; font-size:10px; padding:12px 15px 6px 15px;background-color:#F2F2F2;background-image:url(http://webdev/atalaya/images/sidbx_bg.gif);background-repeat:repeat-x;}
+.BoxBody ul{margin:0;padding:0px 12px 0px 12px;list-style-image:url(http://webdev/venusdes/images/BulletYellow.gif);width:81%;overflow:hidden;}
+.BoxBody ul li{padding-bottom:3px;}
+.cntChevronList {font-family:Tahoma; font-size:10px; color:#666666; list-style-type:none; list-style-image:none; margin-left:-3px}
+.ScrollDiv {overflow:auto;width:800;height:500;color:#E4E5F5;}
+
+
+A         {FONT-SIZE: .8em;COLOR: #CCCCCC;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A:visited {FONT-SIZE: .8em;COLOR: #CCCCCC;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A:active  {FONT-SIZE: 0.8em;COLOR: #CCCCCC;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A:hover   {FONT-SIZE: 0.8em;COLOR: #CCCCCC;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: underline}
+
+A.menu {FONT-WEIGHT: bold;FONT-SIZE: 9pt;WIDTH: 100%;COLOR: #676767;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.menu:visited {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #676767;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.menu:active {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #676767;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.menu:hover {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #ffffff;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: underline}
+A.link:visited {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: underline}
+A.link:active {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: underline}
+A.link:hover {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.Adm {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #ffffff;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.Adm:visited {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #ffffff;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.Adm:active {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #ffffff;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.Adm:hover {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #d8e7bc;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link2 {FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link2:visited {FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link2:active {FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link2:hover {FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: Verdana,Arial, Helvetica, sans-serif;TEXT-DECORATION: underline}
+A.link3 {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Verdana, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link3:visited {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Verdana, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link3:active {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Verdana, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link3:hover {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Verdana, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link4 {BORDER-RIGHT: medium none;BORDER-TOP: medium none;FONT-SIZE: 8pt;BORDER-LEFT: medium none;COLOR: #676767;BORDER-BOTTOM: medium none;FONT-FAMILY: Verdana, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link4:visited {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Verdana, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link4:active {FONT-SIZE: 8pt;COLOR: #676767;FONT-FAMILY: Verdana, Helvetica, sans-serif;TEXT-DECORATION: none}
+A.link4:hover {FONT-SIZE: 8pt;COLOR: #666666;FONT-FAMILY: Verdana, Helvetica, sans-serif;TEXT-DECORATION: none}
+.Titulo1 {FONT-WEIGHT: bold;FONT-SIZE: 10pt;COLOR: #ffffff;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+.Font0 {FONT-SIZE: 9pt;COLOR: #ffffff;FONT-STYLE: normal;FONT-FAMILY: Arial, Helvetica, sans-serif}
+.Font1 {FONT-SIZE: 9pt;COLOR: #676767;FONT-STYLE: normal;FONT-FAMILY: Arial, Helvetica, sans-serif}
+.Font2 {font-family:Tahoma; font-weight:bold; font-size:0.8em;color: #003366;}
+/*.Font2 {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #676767;FONT-STYLE: normal;FONT-FAMILY: Arial, Helvetica, sans-serif}*/
+.Font3 {FONT-SIZE: 8pt;COLOR: #676767;FONT-STYLE: normal;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+.Font4 {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #676767;FONT-STYLE: normal;FONT-FAMILY: Arial, Helvetica, sans-serif}
+.Font5 {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #ffffff;FONT-STYLE: normal;FONT-FAMILY: Arial, Helvetica, sans-serif}
+.FontErr {FONT-WEIGHT: bold;FONT-SIZE: 7pt;COLOR: #ff0000;FONT-STYLE: normal;FONT-FAMILY: Verdana, Helvetica, sans-serif}
+.Boton1 {BACKGROUND-COLOR: #5A5FA1;BORDER-RIGHT: #C3C6E5 1px solid;BORDER-BOTTOM: #C3C6E5 1px solid;BORDER-TOP: #E4E5F5 1px solid;BORDER-LEFT: #E4E5F5 1px solid;COLOR: #ffffff;FONT-WEIGHT: bold;FONT-SIZE: 12px;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none;}
+.Boton2 {FONT-SIZE: 9pt;COLOR: #000000;FONT-FAMILY: Arial, Helvetica, sans-serif;BACKGROUND-COLOR: #8aaf50;TEXT-DECORATION: none}
+.Boton3 {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #ffffff;FONT-FAMILY: Arial, Helvetica, sans-serif;BACKGROUND-COLOR: #003366;TEXT-DECORATION: none}
+.Menu1 {FONT-WEIGHT: bold;FONT-SIZE: 9pt;COLOR: #ffffff;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none}
+.Invisible {VISIBILITY: hidden;POSITION: relative}
+.FontCount {BORDER-RIGHT: #f2f2f2;BORDER-TOP: #f2f2f2;FONT-WEIGHT: bold;FONT-SIZE: 9pt;BORDER-LEFT: #f2f2f2;COLOR: #ff0000;BORDER-BOTTOM: #f2f2f2;FONT-STYLE: normal;FONT-FAMILY: Arial, Helvetica, sans-serif;BACKGROUND-COLOR: transparent}
+.textbox {BORDER-RIGHT: #e4e4e4 1px solid;BORDER-TOP: #8a8a8a 1px solid;FONT-SIZE: 10px;BACKGROUND-IMAGE: url(http://webdev/atalaya/images/textbox_shadow.gif);BORDER-LEFT: #a0a0a0 1px solid;COLOR: #676767;BORDER-BOTTOM: #f4f4f4 1px solid;FONT-FAMILY: Verdana, Arial,Helvetica, sans-serif;BACKGROUND-COLOR: #f9f9f9;TEXT-DECORATION: none}
+BODY {MARGIN: 0px}
+.hr {COLOR: #e6e6e6}
+.CboAjax {BORDER-RIGHT: groove;BORDER-TOP: groove;DISPLAY: none;FONT-SIZE: 8pt;LEFT: 0px;BORDER-LEFT: groove;WIDTH: 280px;cursor:pointer;COLOR: #004577;BORDER-BOTTOM: groove;FONT-STYLE: normal;FONT-FAMILY: Arial, Helvetica, sans-serif;POSITION: absolute;TOP: 22px;BACKGROUND-COLOR: #ffffff}
+.BotonDigit {BORDER-RIGHT: #efefef outset;BORDER-TOP: #efefef outset;FONT-WEIGHT: bold;FONT-SIZE: 9pt;VERTICAL-ALIGN: middle;BORDER-LEFT: #efefef outset;WIDTH: 25px;COLOR: #ffffff;BORDER-BOTTOM: #efefef outset;FONT-FAMILY: Arial, Helvetica, sans-serif;BACKGROUND-COLOR: #676767;TEXT-ALIGN: center;TEXT-DECORATION: none;}
+.TablaScrollMatrizDual {OVERFLOW: auto;WIDTH: 670px;HEIGHT: 300px}
+.ScrollFrame {
+		overflow:auto;
+		scrollbar-face-color:#C3C6E5;
+		scrollbar-arrow-color:#5A5FA1;
+		scrollbar-track-color:#E4E5F5;
+		scrollbar-shadow-color:#B1B4D2;
+		scrollbar-darkshadow-color:#5A5FA1;
+		scrollbar-3DLight-color:#F2F2F2;
+}
+/*.Procesando{display:block; top:100px; left:170px; width:130px; position:fixed; border:1px solid #548763; padding:10px; text-align:center; font-weight:bold; color:red; background:url(grid2.gif);}*/
+/*Estilos de tabla*/
+.Table          {Background-Color: #C3C6E5;FONT-SIZE: .8em;COLOR: #676767;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none;FONT-STYLE: normal;}
+.TableTitle     {Background-Color: #5A5FA1;FONT-SIZE:1.4em;COLOR: #FFFFFF;FONT-FAMILY:Tahoma; font-weight:bold;  }
+.TableTitleCols {Background-Color: #C3C6E5;FONT-SIZE: .8em;COLOR: #5A5A5A;FONT-FAMILY: Arial, Helvetica, sans-serif;TEXT-DECORATION: none;FONT-WEIGHT: bold;}
+.TableParameters{Background-Color: #E4E5F5;}
+.TableRowOn     {Background-Color: #E4E5F5;}
+.TableRowOff    {Background-Color: #FFFFFF;}
+.TableRowActive {Background-Color: #CCCCCC;}
+.TableRowerror  {Background-Color: #CCCCCC;FONT-SIZE: 1.2em;COLOR: #FF0000;}
+.TableSubTotals {Background-Color: #BBBEDA; FONT-WEIGHT: bold;}
+.TableTotals    {Background-Color: #A9ACD7; FONT-WEIGHT: bold;}
+.TablePagination{Background-Color: #C3C6E5;}
+
+/*Estilos de Menú*/
+.submenu2{border: solid 1px #8A867A;background-color: #FFFFFF;background-image: url(img/sm_back_office2.gif);  background-repeat: repeat-y;  height: auto;}
+.item12{border: solid 0px #316AC5;margin: 1px;background-color: transparent;width: 100%; cursor:pointer;}
+.item22{border: solid 1px #000C80;margin: 0px;background-color: #B8D1F8;width: 100%; cursor:pointer;}
+/*Color Original:background-color: #FFF2C8*/
+.text12{font: normal 11px Tahoma, Arial;color: #000000;text-indent: 10px;padding: 3px 10px 3px 3px;width:100%;}
+.text22{font: normal 11px Tahoma, Arial;color: #000000;text-indent: 10px;padding: 3px 10px 3px 3px;width:100%;}
+.topsubmenu2{border: solid 0px #000C80;background-color: #B8D1F8;}
+.topitem12{border: solid 1px; cursor:pointer;background-image:url(http://webdev/venusdes/images/bg_navcon.gif);background-repeat:repeat-x;background-position:bottom;background-color:#CBE0FD;}
+.topitem22{border: solid 1px #5A5FA1;background-color: #B8D1F8;width: 100%; cursor:pointer;}
+/*Color Original: FFF2C8*/
+.toptext12{font: normal .8em Tahoma, Arial;color: #316AC5;padding: 4px;padding: 3px 7px 3px 7px;}
+.toptext22{font: normal .8em Tahoma, Arial;color: #316AC5;padding: 4px;padding: 3px 7px 3px 7px;}

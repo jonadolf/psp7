@@ -1,0 +1,29 @@
+<html>
+	<head>
+	<title>Example jQuery</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<div id="idDiv1" style="border: 1px solid red;"></div>
+		<div id="idDiv2" style="border: 2px solid blue;"></div>
+		<div id="idDiv3" style="border: 3px solid green;">Esto sale por ventana emergente...</div>
+
+		<script type="text/javascript">
+			// Primera forma de utilizar jQuery
+			$(document).on("ready", function(){
+				alert("Forma de inicialización...");
+			});
+			// Segunda forma de utilizar jQuery
+			$(document).ready(function(){
+				$('#idDiv1').text("<b>Contenido del primer DIV</b> y esto otro sin negrilla");
+				$('#idDiv2').html("<b>Contenido del segundo DIV</b> y esto otro sin negrilla");
+			});
+			// Tercera forma de usar jQuery
+			$(function(){
+				var texto3 = $('#idDiv3').text();
+				alert(texto3 + " Mensaje 3");
+			});
+		</script>
+
+	</body>
+</html>

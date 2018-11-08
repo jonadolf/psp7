@@ -1,0 +1,8 @@
+eliminar asignacion
+
+
+{!!Form::open(['route'=>['eliminaTarea',$tarea->id],'method'=>'DELETE'])  !!}
+							    	<input type="hidden" name="id" value="{{$tarea->id}}">
+									{!!Form::submit('Eliminar',['class	'=>'btn btn-danger btn-sm']) !!}
+									{{ csrf_field() }}
+								{!! Form::close() !!}
